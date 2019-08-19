@@ -23,7 +23,7 @@ namespace TUSofiaProject.Controllers
                 return BadRequest("Invalid client request");
             }
 
-            if (clientLogin.UserName == "admin" && clientLogin.Password == "1234")
+            if (clientLogin.UserName == "admin" && clientLogin.Password == "1234") // Only for test purposes
             {
                 var tokenString = await loginRepository.Login();
                 return Ok(new { token = tokenString });
