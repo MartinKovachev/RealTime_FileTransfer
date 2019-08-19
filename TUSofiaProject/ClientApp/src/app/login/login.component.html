@@ -1,0 +1,17 @@
+<button mat-raised-button class="button-home" (click)="redirectToDashboardComponent()">Връщане в начално меню</button>
+<div id="card">
+  <h5>File Transfer</h5>
+  <h4>Login</h4>
+  <div id="login-form">
+    <h3>Моля въведете име и парола:</h3>
+    <div class="input">
+      <i class="fas fa-user"></i>
+      <input class="form-control userName" type="text" placeholder="Потребителско име" required [(ngModel)]="userName">
+    </div>
+    <div class="input">
+      <i class="fas fa-key"></i>
+      <input class="form-control password" type="password" placeholder="Парола" required [(ngModel)]="password">
+    </div>
+    <button class="form-button" type="submit" (click)="login()"><span class="buttonText">Вход</span></button>
+  </div>
+</div>

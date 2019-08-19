@@ -1,0 +1,53 @@
+.button-admin {
+  width: 100px;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  display: block;
+  max-width: 800px;
+  min-height: 300px;
+  margin: 6% auto 0 auto;
+  padding-top: 10px;
+  padding-right: 20px;
+  border: 2px solid #b2b2b2;
+  border-radius: 6px;
+  clear: right;
+  background: white;
+  box-shadow: 0px 0px 10px 1px #b2b2b2
+}
+
+.center > h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.files-none {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.input-share {
+  display: inline-block;
+  position: relative;
+  max-width: 564px;
+  max-height: 36px;
+  margin-bottom: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.button-share {
+  display: inline-block;
+  position: relative;
+  bottom: 3px;
+  background-color: #3798ff;
+  border: #3798ff;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

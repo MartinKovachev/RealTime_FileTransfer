@@ -1,0 +1,14 @@
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\bin\Debug\netcoreapp2.1\TUSofiaProject.deps.json
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\bin\Debug\netcoreapp2.1\TUSofiaProject.runtimeconfig.json
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\bin\Debug\netcoreapp2.1\TUSofiaProject.runtimeconfig.dev.json
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\bin\Debug\netcoreapp2.1\TUSofiaProject.dll
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\bin\Debug\netcoreapp2.1\TUSofiaProject.pdb
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.csprojAssemblyReference.cache
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.csproj.CoreCompileInputs.cache
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.RazorAssemblyInfo.cache
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.RazorAssemblyInfo.cs
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.AssemblyInfoInputs.cache
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.AssemblyInfo.cs
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.RazorTargetAssemblyInfo.cache
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.dll
+C:\Users\m.kovachev\source\repos\TUSofiaProject\TUSofiaProject\obj\Debug\netcoreapp2.1\TUSofiaProject.pdb

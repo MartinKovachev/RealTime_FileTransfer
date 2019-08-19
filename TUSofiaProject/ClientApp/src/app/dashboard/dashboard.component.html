@@ -1,0 +1,12 @@
+<button mat-raised-button class="button-admin" (click)="redirectToUploadComponent()">Админ</button>
+<div class="clear"></div>
+<div class="center">
+  <h3>Получени споделени файлове</h3>
+  <div class="files-none" *ngIf="!files?.length">Няма получени споделени файлове</div>
+  <ol>
+    <li *ngFor="let file of files">
+      <input type="text" class="form-control input-share" value="{{file.name}}" readonly>
+      <button class="btn btn-primary button-share" (click)="downloadFile(file.id)">Сваляне на файл</button>
+    </li>
+  </ol>
+</div>

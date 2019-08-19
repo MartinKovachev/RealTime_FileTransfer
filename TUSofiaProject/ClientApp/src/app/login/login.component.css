@@ -1,0 +1,161 @@
+.button-home {
+  margin: 20px 0 0 20px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background: white; /* fallback for old browsers */
+}
+
+/*LOGIN FORM*/
+
+#card {
+  display: block;
+  height: 400px;
+  width: 300px;
+  border-top: 6px solid #007eca;
+  border-radius: 2px;
+  background-color: #fffdfa;
+  margin: 120px auto 0 auto;
+  box-shadow: 0px 0px 20px 2px #808080;
+}
+
+  #card > h5 {
+    position: relative;
+    font-size: 26px;
+    width: 330px;
+    top: 10px;
+    right: 14px;
+    padding: 10px;
+    background: #007eca;
+    border: 2px solid #007eca;
+    color: white;
+    text-align: center;
+    box-shadow: inset 0px 0px 22px -3px rgba(115, 115, 118, 0.93);
+  }
+
+  #card > h4 {
+    font-size: 20px;
+    padding: 16px 0 30px 0;
+    color: #646464;
+    text-align: center;
+  }
+
+#login-form > h3 {
+  font-size: 14px;
+  padding: 0 0 6px 26px;
+  color: #646464;
+  text-align: left;
+}
+
+#login-form input {
+  display: inline-block;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  height: 37px;
+  width: 86%;
+  border: 2px solid #b4b4b4;
+  border-radius: 4px;
+  margin: 0 20px 15px;
+  padding: 6px 26px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #4b4b4b;
+  background: #f0f4f7;
+}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #f0f4f7 inset !important;
+}
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill {
+  -webkit-text-fill-color: #4b4b4b !important;
+}
+
+.form-button {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #007eca;
+  height: 47px;
+  width: 160px;
+  border: 2px solid #007eca;
+  border-radius: 60px;
+  margin: 0 auto;
+  margin-top: 17px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+  outline: none;
+  transition: 0.4s;
+}
+
+  .form-button:hover {
+    background: #279ce4;
+  }
+
+.fas.fa-user, .fas.fa-key {
+  position: absolute;
+  z-index: 1;
+  color: #646464;
+  margin-top: 10px;
+  margin-left: 28px;
+}
+
+/*Spinner*/
+.lds-ring {
+  display: none;
+  margin: 0 auto;
+  position: relative;
+  top: 21px;
+  left: 130px;
+  width: 44px;
+  height: 44px;
+}
+
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    margin: 6px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+
+    .lds-ring div:nth-child(1) {
+      animation-delay: -0.45s;
+    }
+
+    .lds-ring div:nth-child(2) {
+      animation-delay: -0.3s;
+    }
+
+    .lds-ring div:nth-child(3) {
+      animation-delay: -0.15s;
+    }
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

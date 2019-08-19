@@ -1,0 +1,46 @@
+<div class="buttons-top">
+  <button mat-raised-button class="button-home" (click)="redirectToDashboardComponent()">Връщане в начално меню</button>
+  <button mat-raised-button class="button-logout" (click)="logout()">Изход</button>
+</div>
+<div class="main">
+  <div class="left">
+    <h3>Моля изберете файл за споделяне:</h3>
+    <div class="inner-input">
+      <input type="text" class="form-control input-fileName" value="{{inputFileName}}" placeholder="Име на файл..." readonly>
+      <label class="btn btn-primary button-attach">
+        Прикачи файл <input style="display: none;" type="file" #file (change)="fileToUpload()" required />
+      </label>
+    </div>
+    <button class="btn btn-primary button-upload" (click)="uploadFile()">Качване на файл</button>
+    <div class="sk-circle" *ngIf="uploadLoader">
+      <div class="sk-circle1 sk-child"></div>
+      <div class="sk-circle2 sk-child"></div>
+      <div class="sk-circle3 sk-child"></div>
+      <div class="sk-circle4 sk-child"></div>
+      <div class="sk-circle5 sk-child"></div>
+      <div class="sk-circle6 sk-child"></div>
+      <div class="sk-circle7 sk-child"></div>
+      <div class="sk-circle8 sk-child"></div>
+      <div class="sk-circle9 sk-child"></div>
+      <div class="sk-circle10 sk-child"></div>
+      <div class="sk-circle11 sk-child"></div>
+      <div class="sk-circle12 sk-child"></div>
+    </div>
+  </div>
+  <div class="right">
+    <h3>Качени файлове</h3>
+    <div class="spinner" *ngIf="initialLoader">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+    <div class="files-none" *ngIf="files?.length == 0">Няма качени файлове</div>
+    <ol>
+      <li *ngFor="let file of files">
+        <input type="text" class="form-control input-share" value="{{file.name}}" readonly>
+        <button class="btn btn-primary button-share" (click)="shareFile(file)">Споделяне на файл</button>
+        <button class="btn btn-danger button-delete" (click)="deleteFile(file)">Изтриване</button>
+      </li>
+    </ol>
+  </div>
+</div>
